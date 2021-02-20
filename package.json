@@ -5,7 +5,7 @@
   "description": "Literary Disorder",
   "author": "Devesh Mhatre",
   "keywords": [
-    "gatsby"
+    "gatsby", "blogs", "essays"
   ],
   "scripts": {
     "develop": "gatsby develop",

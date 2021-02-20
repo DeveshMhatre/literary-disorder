@@ -6,7 +6,8 @@ import { ThemeContext } from '../contexts/ThemeContext'
 const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext)
 
-  const handleThemeChange = () => {
+  const handleThemeChange = (e) => {
+    e.preventDefault()
     theme === 'light' ? setTheme('dark') : setTheme('light')
   }
 
@@ -18,18 +19,22 @@ const Header = () => {
           Random Thoughts of Devesh Mhatre
         </p>
       </div>
+
       <div className="header__links">
         <Link className="header__links--link" to="/">
           Home
         </Link>
+
         <Link className="header__links--link" to="/about">
           About
         </Link>
+
         <Link className="header__links--link" to="/contact">
           Contact
         </Link>
+
         <button className="header__links--theme" onClick={handleThemeChange}>
-          Change Theme
+          <i className="gg-sun"></i>
         </button>
       </div>
     </header>
