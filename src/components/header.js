@@ -1,7 +1,8 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { Link } from 'gatsby'
 
-const Header = () => {
+const Header = ({ handleThemeChange }) => {
   return (
     <header className="header">
       <div className="header__headings">
@@ -20,9 +21,16 @@ const Header = () => {
         <Link className="header__links--link" to="/contact">
           Contact
         </Link>
+        <button className="header__links--theme" onClick={handleThemeChange}>
+          Change Theme
+        </button>
       </div>
     </header>
   )
+}
+
+Header.propTypes = {
+  handleThemeChange: PropTypes.func.isRequired,
 }
 
 export default Header

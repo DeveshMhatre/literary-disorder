@@ -1,0 +1,15 @@
+.layout {
+  min-height: 100vh;
+
+  padding: 2rem 22rem;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  background-color: var(--pri-color);
+  color: var(--sec-color);
+
+  font-family: $body-font;
+  font-size: 1.6rem;
+}
