@@ -3,6 +3,9 @@ import { Link } from 'gatsby'
 
 import { ThemeContext } from '../contexts/ThemeContext'
 
+import ThemeSwitch from './theme-switch'
+import MobileMenu from './mobile-menu'
+
 const Header = () => {
   const { theme, setTheme } = useContext(ThemeContext)
 
@@ -21,22 +24,22 @@ const Header = () => {
       </div>
 
       <div className="header__links">
-        <Link className="header__links--link" to="/">
+        <Link className="header-link header__links--link" to="/">
           Home
         </Link>
 
-        <Link className="header__links--link" to="/about">
+        <Link className="header-link header__links--link" to="/about">
           About
         </Link>
 
-        <Link className="header__links--link" to="/contact">
+        <Link className="header-link header__links--link" to="/contact">
           Contact
         </Link>
 
-        <button className="header__links--theme" onClick={handleThemeChange}>
-          <i className="gg-sun"></i>
-        </button>
+        <ThemeSwitch />
       </div>
+
+      <MobileMenu handleThemeChange={handleThemeChange} />
     </header>
   )
 }

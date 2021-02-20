@@ -3,6 +3,8 @@
 
 // Icons
 @import url('https://css.gg/sun.css');
+@import url('https://css.gg/menu-right.css');
+@import url('https://css.gg/close.css');
 
 @import 'base/reset';
 @import 'base/typography';
@@ -11,6 +13,10 @@
 
 @import 'components/header';
 @import 'components/footer';
+@import 'components/icon-btn';
+@import 'components/header-link';
+@import 'components/menu-overlay';
+@import 'components/theme-switch';
 
 @import 'layout/layout';
 @import 'pages/home';

@@ -1,0 +1,7 @@
+.theme-switch {
+  transition: transform 300ms ease-in-out;
+
+  &:hover {
+    transform: rotate(30deg);
+  }
+}
