@@ -1,0 +1,6 @@
+.footer {
+  &__msg {
+    font-family: $body-font;
+    font-size: clamp(1.4rem, 1.6vw, 1.8rem);
+  }
+}
