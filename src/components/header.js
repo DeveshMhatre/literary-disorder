@@ -1,8 +1,15 @@
-import React from 'react'
-import PropTypes from 'prop-types'
+import React, { useContext } from 'react'
 import { Link } from 'gatsby'
 
-const Header = ({ handleThemeChange }) => {
+import { ThemeContext } from '../contexts/ThemeContext'
+
+const Header = () => {
+  const { theme, setTheme } = useContext(ThemeContext)
+
+  const handleThemeChange = () => {
+    theme === 'light' ? setTheme('dark') : setTheme('light')
+  }
+
   return (
     <header className="header">
       <div className="header__headings">
@@ -27,10 +34,6 @@ const Header = ({ handleThemeChange }) => {
       </div>
     </header>
   )
-}
-
-Header.propTypes = {
-  handleThemeChange: PropTypes.func.isRequired,
 }
 
 export default Header
