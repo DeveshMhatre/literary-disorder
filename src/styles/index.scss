@@ -1,0 +1,11 @@
+@import 'base/reset';
+@import 'base/typography';
+@import 'themes/theme';
+@import 'utils/variables';
+
+@import 'components/header';
+@import 'components/footer';
+
+@import 'layout/layout';
+@import 'pages/home';
+@import 'pages/404';
