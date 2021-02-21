@@ -10,7 +10,7 @@ const Layout = ({ children }) => {
   const { theme, setTheme } = useContext(ThemeContext)
 
   return (
-    <main className={`layout ${theme}`}>
+    <main className={`layout ${theme === undefined ? 'light' : theme}`}>
       <Header />
       {children}
       <Footer />
