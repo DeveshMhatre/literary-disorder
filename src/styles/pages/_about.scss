@@ -11,6 +11,16 @@
 
     text-align: center;
   }
+
+  &__details {
+    &--socials {
+      width: 50%;
+
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
 }
 
 @media all and (max-width: 768px) {

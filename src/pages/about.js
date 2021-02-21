@@ -1,8 +1,15 @@
 import React from 'react'
 
+import { GitHub, Twitter, Linkedin } from 'react-feather'
+
 import Layout from '../components/layout'
+import SocialLink from '../components/social-link'
 
 const About = () => {
+  const githubLink = 'https://github.com/DeveshMhatre'
+  const twitterLink = 'https://twitter.com/i_am_devesh'
+  const linkedinLink = 'https://linkedin.com/in/devesh-mhatre-a74192135'
+
   return (
     <Layout>
       <article className="main about">
@@ -20,12 +27,15 @@ const About = () => {
           </p>
 
           <section className="about__details--socials">
-            <a
-              href="https://github.com/DeveshMhatre/"
-              className="about__socials--github"
-            >
-              <i className="gg-twitter"></i>
-            </a>
+            <SocialLink link={githubLink}>
+              <GitHub />
+            </SocialLink>
+            <SocialLink link={linkedinLink}>
+              <Linkedin />
+            </SocialLink>
+            <SocialLink link={twitterLink}>
+              <Twitter />
+            </SocialLink>
           </section>
         </section>
       </article>
