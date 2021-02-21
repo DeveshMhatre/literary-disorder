@@ -13,6 +13,14 @@
   }
 
   &__details {
+    &--info {
+      max-width: 70%;
+
+      margin: 3rem 0;
+
+      font-size: clamp(1.6rem, 1.8vw, 2rem);
+    }
+
     &--socials {
       width: 50%;
 
@@ -28,5 +36,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+
+    &__details {
+      &--info {
+        max-width: 100%;
+      }
+    }
   }
 }
