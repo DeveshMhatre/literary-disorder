@@ -14,11 +14,12 @@
 
   &__details {
     &--info {
-      max-width: 70%;
-
-      margin: 3rem 0;
-
+      margin: 2rem 0;
       font-size: clamp(1.6rem, 1.8vw, 2rem);
+
+      p {
+        margin-bottom: 1rem;
+      }
     }
 
     &--socials {
@@ -28,6 +29,18 @@
       justify-content: space-between;
       align-items: center;
     }
+  }
+}
+
+@media all and (min-width: 1280px) {
+  .about__details--info {
+    max-width: 85%;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .about__details--info {
+    max-width: 70%;
   }
 }
 
