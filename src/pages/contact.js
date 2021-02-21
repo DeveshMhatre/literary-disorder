@@ -54,7 +54,9 @@ const About = () => {
             ></textarea>
           </div>
 
-          <button className="contact__form--submit">Submit</button>
+          <button className="contact__form--submit" type="submit">
+            Submit
+          </button>
         </form>
       </article>
     </Layout>
