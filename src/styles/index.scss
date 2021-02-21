@@ -5,6 +5,7 @@
 @import url('https://css.gg/sun.css');
 @import url('https://css.gg/menu-right.css');
 @import url('https://css.gg/close.css');
+@import url('https://css.gg/twitter.css');
 
 @import 'base/reset';
 @import 'base/typography';
@@ -19,5 +20,9 @@
 @import 'components/theme-switch';
 
 @import 'layout/layout';
+@import 'layout/main';
+
 @import 'pages/home';
 @import 'pages/404';
+@import 'pages/about';
+@import 'pages/contact';

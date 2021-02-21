@@ -1,0 +1,22 @@
+.about {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  &__greeting {
+    flex: 1 0 50%;
+
+    font-family: $logo-font;
+    font-size: clamp(7.2rem, 20vw, 22rem);
+
+    text-align: center;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .about {
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
