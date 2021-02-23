@@ -12,7 +12,11 @@ const BlogTemplate = ({ data }) => {
     <Layout>
       <article className="main article">
         <h3 className="article__title">{frontmatter.title}</h3>
-        <p className="article__date">{frontmatter.date}</p>
+        <p className="post-meta">
+          {frontmatter.date}
+          <span className="post-meta__separator">&#9679;</span>{' '}
+          {frontmatter.readingTime} Min Read
+        </p>
         <section
           className="article__body"
           dangerouslySetInnerHTML={{ __html: html }}
@@ -30,6 +34,7 @@ export const postQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        readingTime
       }
     }
   }
@@ -43,6 +48,7 @@ BlogTemplate.propTypes = {
         date: PropTypes.string.isRequired,
         slug: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
+        readingTime: PropTypes.number.isRequired,
       }),
     }),
   }),

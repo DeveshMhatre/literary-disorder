@@ -2,6 +2,7 @@
 slug: blog/first-post
 title: First Post
 date: 2021-02-21T13:50:12.763Z
+readingTime: 2
 description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus sapien, tristique nec gravida vitae, condimentum nec ante.
 ---
 
