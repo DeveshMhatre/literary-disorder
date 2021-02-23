@@ -32,19 +32,13 @@
   }
 }
 
-@media all and (min-width: 1280px) {
-  .about__details--info {
-    max-width: 85%;
-  }
-}
-
 @media all and (min-width: 1440px) {
   .about__details--info {
-    max-width: 70%;
+    max-width: 90%;
   }
 }
 
-@media all and (max-width: 768px) {
+@media all and (max-width: 868px) {
   .about {
     flex-direction: column;
     justify-content: space-between;
