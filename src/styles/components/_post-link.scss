@@ -1,0 +1,52 @@
+.post-link {
+  margin-bottom: 7rem;
+
+  &:last-of-type {
+    margin: 0;
+  }
+
+  &__title {
+    margin-bottom: 1rem;
+
+    font-family: $heading-font;
+    font-size: clamp(2rem, 2.4vw, 3.2rem);
+
+    color: var(--sec-color);
+
+    text-align: center;
+  }
+
+  &__meta {
+    margin-bottom: 1rem;
+
+    font-size: clamp(1rem, 1.2vw, 1.4rem);
+  }
+
+  &__desc {
+    margin-bottom: 1rem;
+
+    font-family: $body-font;
+    font-size: clamp(1.2rem, 1.4vw, 1.8rem);
+
+    color: var(--sec-color);
+
+    text-align: center;
+  }
+
+  &__link {
+    text-align: center;
+
+    &--text {
+      border-bottom: 0.1rem solid var(--sec-color);
+
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+
+      font-family: $body-font;
+      font-size: clamp(1.2rem, 1.4vw, 1.8rem);
+
+      color: var(--sec-color);
+    }
+  }
+}
