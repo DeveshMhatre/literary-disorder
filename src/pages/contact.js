@@ -52,6 +52,7 @@ const About = () => {
           <div className="contact__form--row">
             <label htmlFor="name">Name</label>
             <input
+              name="name"
               type="text"
               className="text-input"
               id="name"
@@ -66,6 +67,7 @@ const About = () => {
           <div className="contact__form--row">
             <label htmlFor="email">Email</label>
             <input
+              name="email"
               type="email"
               className="text-input"
               id="email"
@@ -99,5 +101,4 @@ const About = () => {
     </Layout>
   )
 }
-
 export default About
