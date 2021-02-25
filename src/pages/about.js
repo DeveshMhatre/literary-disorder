@@ -1,9 +1,9 @@
 import React from 'react'
-
 import { GitHub, Twitter, Linkedin } from 'react-feather'
 
 import Layout from '../components/layout'
 import SocialLink from '../components/social-link'
+import SEO from './seo'
 
 const About = () => {
   const githubLink = 'https://github.com/DeveshMhatre'
@@ -12,6 +12,7 @@ const About = () => {
 
   return (
     <Layout>
+      <SEO title="About" />
       <article className="main about">
         <h3 className="about__greeting">Hey</h3>
 

@@ -3,13 +3,22 @@ import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
 import Layout from './layout'
+import SEO from '../pages/seo'
 
 const BlogTemplate = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
+  console.log(frontmatter.description)
+
   return (
     <Layout>
+      <SEO
+        title={frontmatter.title}
+        description={frontmatter.description}
+        pathname={frontmatter.slug}
+        article
+      />
       <article className="main article">
         <h3 className="article__title">{frontmatter.title}</h3>
         <p className="post-meta">
@@ -34,6 +43,7 @@ export const postQuery = graphql`
         date(formatString: "MMMM DD, YYYY")
         slug
         title
+        description
         readingTime
       }
     }
@@ -48,6 +58,7 @@ BlogTemplate.propTypes = {
         date: PropTypes.string.isRequired,
         slug: PropTypes.string.isRequired,
         title: PropTypes.string.isRequired,
+        description: PropTypes.string.isRequired,
         readingTime: PropTypes.number.isRequired,
       }),
     }),

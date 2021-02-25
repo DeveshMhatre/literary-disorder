@@ -4,6 +4,7 @@ import { graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import PostLink from '../components/post-link'
+import SEO from './seo'
 
 const HomePage = ({
   data: {
@@ -17,6 +18,7 @@ const HomePage = ({
 
   return (
     <Layout>
+      <SEO title="Home" />
       <article className="main home">{Posts}</article>
     </Layout>
   )

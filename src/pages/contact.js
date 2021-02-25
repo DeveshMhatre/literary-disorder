@@ -2,6 +2,7 @@ import React, { useReducer } from 'react'
 import { navigate } from 'gatsby-link'
 
 import Layout from '../components/layout'
+import SEO from './seo'
 
 import contactReducer from '../utils/contactReducer'
 
@@ -36,6 +37,7 @@ const About = () => {
 
   return (
     <Layout>
+      <SEO title="Contact" />
       <article className="main contact">
         <h1 className="contact__heading">Contact Me</h1>
 
