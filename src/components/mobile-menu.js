@@ -14,14 +14,22 @@ const MobileMenu = () => {
 
   return (
     <div className="header__menu">
-      <button className="icon-btn header__menu--btn" onClick={handleOverlay}>
+      <button
+        className="icon-btn header__menu--btn"
+        onClick={handleOverlay}
+        aria-label="Right Align"
+      >
         <i className="gg-menu-right"></i>
       </button>
 
       <div className={overlay ? 'menu-overlay' : 'menu-overlay--disabled'}>
         <div className="menu-overlay__btns">
           <ThemeSwitch />
-          <button className="icon-btn" onClick={handleOverlay}>
+          <button
+            className="icon-btn"
+            onClick={handleOverlay}
+            aria-label="Close Menu"
+          >
             <i className="gg-close"></i>
           </button>
         </div>

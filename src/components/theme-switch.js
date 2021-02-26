@@ -13,7 +13,11 @@ const ThemeSwitch = () => {
 
   return (
     <>
-      <button className="theme-switch icon-btn" onClick={handleThemeChange}>
+      <button
+        className="theme-switch icon-btn"
+        onClick={handleThemeChange}
+        aria-label="Change Theme"
+      >
         <i className="gg-sun"></i>
       </button>
     </>
