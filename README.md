@@ -1,48 +1,81 @@
+<!-- PROJECT LOGO -->
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
+  <a href="https://github.com/DeveshMhatre/literary-disorder">
+    <img src="static/favicon.ico" alt="Logo" width="80" height="80">
   </a>
+
+  <h3 align="center">Literary Disorder</h3>
+
+  <p align="center">
+    A personal blog of Devesh Mhatre created using GatsbyJS (a ReactJS framework) and Netlify CMS
+    <br />
+    <br />
+    <a href="https://literary-disorder.netlify.app" target="_blank">View Demo</a>
+  </p>
 </p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
 
-## 🚀 Quick start
+<!-- TABLE OF CONTENTS -->
+<details open="open">
+  <summary>Table of Contents</summary>
+  <ul style="list-style-type: none;">
+    <li>
+      <a href="#getting-started">Getting Started</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#installation">Installation</a></li>
+        <li><a href="#development-server">Development Server</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#technologies-used">Technologies Used</a>
+    </li>
+    <li>
+      <a href="#license">License</a>
+    </li>
+  </ul>
+</details>
 
-1.  **Create a Gatsby site.**
+<!-- GETTING STARTED -->
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+## Getting Started
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-2.  **Start developing.**
+#### Prerequisites
 
-    Navigate into your new site’s directory and start it up.
+<ul>
+  <li>Git (2.27.0 or higher)</li>
+  <li>NodeJS (14.16.0 or higher)</li>
+  <li>Yarn (1.22.5 or higher)</li>
+</ul>
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+#### Installation
 
-3.  **Open the code and start customizing!**
+1. Clone the repo
+   ```sh
+   git clone https://github.com/DeveshMhatre/literary-disorder.git
+   ```
+2. Install dependencies
+   ```sh
+   yarn install
+   ```
 
-    Your site is now running at http://localhost:8000!
+#### Development Server
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+1. Start the development server
 
-4.  **Learn more**
+   ```sh
+   gatsby develop
+   ```
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+2. The server will start running on `http://localhost:8000`.
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Technologies Used
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+- [GatsbyJS](https://www.gatsbyjs.com/)
+- [Netlify CMS](https://www.netlifycms.org/)
+- [Sass](https://sass-lang.com/)
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## License
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+[MIT](https://choosealicense.com/licenses/mit/)
