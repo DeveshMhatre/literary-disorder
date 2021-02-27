@@ -2,9 +2,11 @@ import React from 'react'
 import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import SEO from './seo'
 
 const ThankYou = () => (
   <Layout>
+    <SEO title="Thank You" />
     <article className="main info-page">
       <h3 className="info-page__heading">Thank you for getting in touch!</h3>
       <p className="info-page__message">
