@@ -1,4 +1,4 @@
-.thank-you {
+.info-page {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,7 +12,7 @@
   }
 
   &__heading {
-    @extend .thank-you__message;
+    @extend .info-page__message;
 
     font-family: $heading-font;
     font-size: clamp(2.4rem, 3vw, 3.8rem);
