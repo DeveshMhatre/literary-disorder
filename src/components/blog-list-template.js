@@ -5,21 +5,25 @@ import { graphql } from 'gatsby'
 import Layout from './layout'
 import SEO from '../pages/seo'
 import PostLink from './post-link'
+import Pagination from './pagination'
 
 const BlogListTemplate = ({
   data: {
     allMarkdownRemark: { edges },
   },
+  pageContext: { numPages, currentPage },
 }) => {
   const AllPosts = edges.map((edge) => (
     <PostLink key={edge.node.id} post={edge.node} />
   ))
+
   return (
     <Layout>
       <SEO title="All Posts" />
       <article className="main all-posts">
         <h1 className="page-heading">All Posts</h1>
         {AllPosts}
+        <Pagination numPages={numPages} currentPage={currentPage} />
       </article>
     </Layout>
   )
@@ -43,6 +47,10 @@ BlogListTemplate.propTypes = {
         }),
       ),
     }),
+  }),
+  pageContext: PropTypes.shape({
+    numPages: PropTypes.number.isRequired,
+    currentPage: PropTypes.number.isRequired,
   }),
 }
 

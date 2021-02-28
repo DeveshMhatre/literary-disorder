@@ -44,6 +44,7 @@ const MobileMenu = () => {
           </Link>
           <Link
             activeStyle={{ fontWeight: '800' }}
+            partiallyActive={true}
             className="header-link"
             to="/posts"
           >

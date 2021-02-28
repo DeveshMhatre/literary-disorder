@@ -34,6 +34,7 @@ const Header = () => {
 
         <Link
           activeStyle={{ fontWeight: '800' }}
+          partiallyActive={true}
           className="header-link header__links--link"
           to="/posts"
         >
