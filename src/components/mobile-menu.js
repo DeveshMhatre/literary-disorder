@@ -38,6 +38,9 @@ const MobileMenu = () => {
           <Link className="header-link" to="/">
             Home
           </Link>
+          <Link className="header-link" to="/posts">
+            Posts
+          </Link>
           <Link className="header-link" to="/about">
             About
           </Link>

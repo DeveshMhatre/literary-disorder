@@ -28,6 +28,10 @@ const Header = () => {
           Home
         </Link>
 
+        <Link className="header-link header__links--link" to="/posts">
+          Posts
+        </Link>
+
         <Link className="header-link header__links--link" to="/about">
           About
         </Link>

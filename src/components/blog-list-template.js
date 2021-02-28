@@ -17,7 +17,10 @@ const BlogListTemplate = ({
   return (
     <Layout>
       <SEO title="All Posts" />
-      <article className="main all-posts">{AllPosts}</article>
+      <article className="main all-posts">
+        <h1 className="page-heading">All Posts</h1>
+        {AllPosts}
+      </article>
     </Layout>
   )
 }
