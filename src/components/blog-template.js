@@ -9,8 +9,6 @@ const BlogTemplate = ({ data }) => {
   const { markdownRemark } = data
   const { frontmatter, html } = markdownRemark
 
-  console.log(frontmatter.description)
-
   return (
     <Layout>
       <SEO
