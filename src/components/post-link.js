@@ -11,8 +11,8 @@ const PostLink = ({ post }) => (
       {post.frontmatter.readingTime} Min Read
     </p>
     <p className="post-link__desc">{post.frontmatter.description}</p>
-    <p className="post-link__link">
-      <Link className="post-link__link--text" to={`/${post.frontmatter.slug}`}>
+    <p className="blog-link">
+      <Link className="blog-link__text" to={`/${post.frontmatter.slug}`}>
         Continue reading <i className="gg-arrow-long-right"></i>
       </Link>
     </p>

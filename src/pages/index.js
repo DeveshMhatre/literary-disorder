@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { graphql } from 'gatsby'
+import { Link, graphql } from 'gatsby'
 
 import Layout from '../components/layout'
 import PostLink from '../components/post-link'
@@ -19,7 +19,14 @@ const HomePage = ({
   return (
     <Layout>
       <SEO title="Home" />
-      <article className="main home">{Posts}</article>
+      <article className="main home">
+        {Posts}
+        <p className="blog-link">
+          <Link to="/blog" className="blog-link__text">
+            See all posts <i className="gg-arrow-long-right"></i>
+          </Link>
+        </p>
+      </article>
     </Layout>
   )
 }
