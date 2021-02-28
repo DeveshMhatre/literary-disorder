@@ -24,19 +24,35 @@ const Header = () => {
       </div>
 
       <div className="header__links">
-        <Link className="header-link header__links--link" to="/">
+        <Link
+          activeStyle={{ fontWeight: '800' }}
+          className="header-link header__links--link"
+          to="/"
+        >
           Home
         </Link>
 
-        <Link className="header-link header__links--link" to="/posts">
+        <Link
+          activeStyle={{ fontWeight: '800' }}
+          className="header-link header__links--link"
+          to="/posts"
+        >
           Posts
         </Link>
 
-        <Link className="header-link header__links--link" to="/about">
+        <Link
+          activeStyle={{ fontWeight: '800' }}
+          className="header-link header__links--link"
+          to="/about"
+        >
           About
         </Link>
 
-        <Link className="header-link header__links--link" to="/contact">
+        <Link
+          activeStyle={{ fontWeight: '800' }}
+          className="header-link header__links--link"
+          to="/contact"
+        >
           Contact
         </Link>
 

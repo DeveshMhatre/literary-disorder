@@ -35,16 +35,32 @@ const MobileMenu = () => {
         </div>
 
         <div className="menu-overlay__links">
-          <Link className="header-link" to="/">
+          <Link
+            activeStyle={{ fontWeight: '800' }}
+            className="header-link"
+            to="/"
+          >
             Home
           </Link>
-          <Link className="header-link" to="/posts">
+          <Link
+            activeStyle={{ fontWeight: '800' }}
+            className="header-link"
+            to="/posts"
+          >
             Posts
           </Link>
-          <Link className="header-link" to="/about">
+          <Link
+            activeStyle={{ fontWeight: '800' }}
+            className="header-link"
+            to="/about"
+          >
             About
           </Link>
-          <Link className="header-link" to="/contact">
+          <Link
+            activeStyle={{ fontWeight: '800' }}
+            className="header-link"
+            to="/contact"
+          >
             Contact
           </Link>
         </div>
