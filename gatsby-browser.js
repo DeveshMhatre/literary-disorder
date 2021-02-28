@@ -14,7 +14,8 @@ export const wrapRootElement = ({ element }) => (
 export const onInitialClientRender = () => {
   if (
     window.location.pathname.startsWith('/thankyou') ||
-    window.location.pathname.startsWith('/404')
+    window.location.pathname.startsWith('/404') ||
+    window.location.pathname.startsWith('/seo')
   ) {
     navigate('/')
   }

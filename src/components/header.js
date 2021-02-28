@@ -25,7 +25,7 @@ const Header = () => {
 
       <div className="header__links">
         <Link
-          activeStyle={{ fontWeight: '800' }}
+          activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
           className="header-link header__links--link"
           to="/"
         >
@@ -33,7 +33,7 @@ const Header = () => {
         </Link>
 
         <Link
-          activeStyle={{ fontWeight: '800' }}
+          activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
           partiallyActive={true}
           className="header-link header__links--link"
           to="/posts"
@@ -42,7 +42,7 @@ const Header = () => {
         </Link>
 
         <Link
-          activeStyle={{ fontWeight: '800' }}
+          activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
           className="header-link header__links--link"
           to="/about"
         >
@@ -50,7 +50,7 @@ const Header = () => {
         </Link>
 
         <Link
-          activeStyle={{ fontWeight: '800' }}
+          activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
           className="header-link header__links--link"
           to="/contact"
         >

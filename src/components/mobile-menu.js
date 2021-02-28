@@ -36,14 +36,14 @@ const MobileMenu = () => {
 
         <div className="menu-overlay__links">
           <Link
-            activeStyle={{ fontWeight: '800' }}
+            activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
             className="header-link"
             to="/"
           >
             Home
           </Link>
           <Link
-            activeStyle={{ fontWeight: '800' }}
+            activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
             partiallyActive={true}
             className="header-link"
             to="/posts"
@@ -51,14 +51,14 @@ const MobileMenu = () => {
             Posts
           </Link>
           <Link
-            activeStyle={{ fontWeight: '800' }}
+            activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
             className="header-link"
             to="/about"
           >
             About
           </Link>
           <Link
-            activeStyle={{ fontWeight: '800' }}
+            activeStyle={{ borderBottom: '0.1rem solid var(--sec-color)' }}
             className="header-link"
             to="/contact"
           >
