@@ -12,7 +12,7 @@ const PostLink = ({ post }) => (
     </p>
     <p className="post-link__desc">{post.frontmatter.description}</p>
     <p className="post-link__link">
-      <Link className="post-link__link--text" to={post.frontmatter.slug}>
+      <Link className="post-link__link--text" to={`/${post.frontmatter.slug}`}>
         Continue reading <i className="gg-arrow-long-right"></i>
       </Link>
     </p>
