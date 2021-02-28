@@ -20,6 +20,6 @@ collections:
       - { label: 'Slug', name: 'slug', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Reading Time', name: 'readintTime', widget: 'number' }
+      - { label: 'Reading Time', name: 'readingTime', widget: 'number' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
