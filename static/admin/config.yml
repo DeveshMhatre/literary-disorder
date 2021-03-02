@@ -4,6 +4,7 @@ backend:
 
 media_folder: static/img
 public_folder: /img
+publish_mode: editorial_workflow
 
 collections:
   - name: 'blog'
@@ -14,6 +15,7 @@ collections:
     media_folder: ''
     public_folder: ''
     path: '{{title}}/index'
+    preview_path: posts/{{slug}}
     editor:
       preview: false
     fields:
