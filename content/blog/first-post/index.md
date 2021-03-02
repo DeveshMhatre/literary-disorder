@@ -1,21 +1,58 @@
 ---
-slug: /posts/first-post
-title: First Post
-date: 2021-02-21T13:50:12.763Z
+slug: /posts/a-toast-to-the-amateurs
+title: A Toast to the Amateurs
+date: 2021-03-02T16:25:03.291Z
 readingTime: 2
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus sapien, tristique nec gravida vitae, condimentum nec ante.
+description: Do headstarts matter? Does focusing on one single skillset the way
+  to go? I can not give you the answers to these questions. What I can do is
+  tell you what worked for me and what did not.
 ---
+My paternal grandfather, uncle, and father all had (had because my grandfather is no more) one thing in common: their artistry.
 
-### Lorem ipsum dolor
+My grandfather was a sculptor, while both my father and uncle are great at drawing and painting. Despite neither one of them making a career out of their artistry, they managed to cultivate it as amateurs just fine. 
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam tellus sapien, tristique nec gravida vitae, condimentum nec ante. Mauris quis dictum eros, et bibendum mauris. Cras efficitur eu libero vel aliquam. Proin lobortis magna non justo ornare, et iaculis lorem suscipit. Donec vel mollis augue, sit amet tempor nibh. Morbi eu justo sed lectus mollis consectetur. Vivamus dapibus, purus ut pellentesque fermentum, nisl justo lobortis enim, at faucibus sapien justo id augue. Phasellus et erat quam. Duis euismod augue sed rutrum pretium. Proin non mi elementum, facilisis dui eget, viverra est.
+Imagine, then, my father's disappointment when he tried to get me to join the family tradition, just to fail miserably.
 
-Phasellus sit amet risus nisi. Aenean a tortor at orci vehicula sollicitudin vel et tortor. Proin elit enim, dictum ut vehicula sit amet, pharetra vel quam. Vivamus vel magna sit amet orci ultricies lacinia id a metus. Nullam gravida nisi urna, in finibus arcu egestas in. Suspendisse pulvinar lacus dictum mauris convallis volutpat quis fringilla ante. Suspendisse viverra dignissim eros, nec ultrices enim congue eget.
+## Fundamentals of Design
 
-### Lorem ipsum dolor
+I was a dumb kid. Even worse, I was bull-headed. Drawing, chess, sculpting, nothing measured up to my passion for gaming. In my late twenties, things have not changed much. I still long to lose myself in a video game more than ever.
 
-Nunc scelerisque ut mi ut finibus. Nulla eget tortor bibendum, placerat mauris sed, cursus ipsum. Phasellus pellentesque, justo mattis ultrices pellentesque, mi nisl sodales nibh, et aliquet nibh mi a lacus. Cras luctus eu nunc vitae sollicitudin. Nullam fermentum varius nunc, vehicula ultrices ipsum hendrerit sed. Aliquam in ligula ex. Curabitur libero risus, mollis at libero vel, convallis fringilla leo. Maecenas tempus lectus non sapien tincidunt, vel feugiat magna gravida. Nam aliquam urna ac arcu ullamcorper accumsan. Nam vitae blandit magna. In elementum turpis vel nisi maximus, sit amet dapibus felis tincidunt. Cras pretium ante massa, et iaculis erat aliquam sit amet.
+But the ever-growing overlap between technology and art managed to succeed where my father failed: develop an artistic bone in my body.
 
-Aenean blandit, massa ut commodo dignissim, massa quam porttitor dui, sed egestas tortor lectus vitae ante. Donec consectetur ligula sit amet scelerisque auctor. Nam ut arcu ut lectus gravida iaculis. Nunc tincidunt, ante in pellentesque vestibulum, odio justo rutrum felis, vel blandit augue massa id risus. Vestibulum sed quam vel elit ultricies tincidunt. Integer tincidunt tristique ligula, sed molestie leo egestas sit amet. Nunc in elit eu ex finibus molestie. Sed egestas maximus felis a mattis. Fusce tempus felis non ligula porta imperdiet. Phasellus varius est ut enim posuere, vel vehicula orci accumsan. In non finibus lectus, et ornare ligula. In ex nibh, condimentum eu sem vel, aliquet pretium risus. Fusce vel mauris id felis semper egestas a in nibh.
+In my quest to make my websites look less trashy, I developed a fond appreciation for the design fundamentals: contrast, negative space, alignment, visual hierarchy.
 
-Quisque aliquet pretium turpis, et congue ante tempor in. Phasellus viverra vehicula nisi, non porta massa sagittis ut. Aliquam gravida diam sit amet semper bibendum. Phasellus finibus sed dui non elementum. Etiam id aliquet justo. Ut tincidunt, erat in tincidunt rutrum, nulla ligula faucibus diam, dapibus ornare mi sem id ante. Integer ac faucibus enim, eu rhoncus odio. Maecenas et malesuada quam, in tincidunt velit. Praesent at lacinia dolor, eget blandit felis. Vestibulum sit amet libero tellus. Integer iaculis nec ex sed finibus. Suspendisse sapien quam, gravida non sodales dictum, semper eget elit. Phasellus id odio at odio rhoncus ultrices. Cras sit amet laoreet risus.
+I do not think my father even knows these fundamentals exist. But I am confident he never failed to apply them in any of his sketches and drawings. Beautiful irony!
+
+Why did I get into design now but could not bother with it during my childhood? Is it too late for me to become a graphics designer at my current age?
+
+## Headstarts Matter?
+
+There is a theory called the 10,000-hour rule popularized by Malcolm Gladwell in his bestseller Outliers: The Story of Success. The premise is simple: you focus on learning a single skill long enough (say, 10,000-hours), and you can master it. It is that simple!
+
+Guess I am a pro-Warframe player. Ha!
+
+Jokes aside, I am sure you can poke a few holes in this theory even if you are not an "expert." For one, this theory is trying to simplify a phenomenon as abstract as the human brain: how humans learn.
+
+"Assuming all things remain constant" is a phrase that belongs in scientific papers and physics textbooks. Everywhere else, it is useless!
+
+To assume every human being applies the same level of focus during all those fated 10,000 hours of bull-headed skill acquisition is wishful thinking.
+
+Safe to say, headstarts or no, your mastery level in a skill is not directly proportional to the number of hours you pour into it.
+
+So what is it proportional to?
+
+How am I supposed to know?! I am a 27-year old intern, for God's sake!
+
+## A Toast to the Amateurs
+
+Even if there is no hope for me to achieve the level of success graphics designers such as Herb Lubalin did, I have decided to keep going.
+
+Even if there is no hope for me to get hired as a UI designer or web developer, I have decided to keep going.
+
+Even if I do not make any money from these skills I am working so hard to learn, I have decided to keep going.
+
+Because I think I get it. It is not about the result—that once-in-a-lifetime job opportunity—it is about the process.
+
+If I get to cultivate my artistry as an amateur rather than as a professional—a so-called master—I would stay an amateur all my life. As my father, and his father before him, did.
+
+A toast to all the amateurs in my life, I guess.
