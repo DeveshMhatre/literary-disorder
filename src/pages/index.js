@@ -20,7 +20,6 @@ const HomePage = ({
     <Layout>
       <SEO title="Home" />
       <article className="main home">
-        <h3 className="page-heading">Recent Posts</h3>
         {Posts}
         <p className="blog-link">
           <Link to="/posts" className="blog-link__text">

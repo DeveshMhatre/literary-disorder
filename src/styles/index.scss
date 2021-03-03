@@ -13,6 +13,15 @@
 @import 'themes/theme';
 @import 'utils/variables';
 
+@import 'layout/layout';
+@import 'layout/main';
+@import 'layout/blog-template';
+@import 'layout/info-page';
+
+@import 'pages/home';
+@import 'pages/about';
+@import 'pages/contact';
+
 @import 'components/header';
 @import 'components/footer';
 @import 'components/icon-btn';
@@ -23,14 +32,5 @@
 @import 'components/post-meta';
 @import 'components/post-link';
 @import 'components/blog-link';
-@import 'components/page-heading';
+@import 'components/all-posts';
 @import 'components/pagination';
-
-@import 'layout/layout';
-@import 'layout/main';
-@import 'layout/blog-template';
-@import 'layout/info-page';
-
-@import 'pages/home';
-@import 'pages/about';
-@import 'pages/contact';

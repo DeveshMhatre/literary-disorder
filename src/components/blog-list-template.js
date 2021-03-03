@@ -21,7 +21,6 @@ const BlogListTemplate = ({
     <Layout>
       <SEO title="All Posts" />
       <article className="main all-posts">
-        <h1 className="page-heading">All Posts</h1>
         {AllPosts}
         <Pagination numPages={numPages} currentPage={currentPage} />
       </article>
