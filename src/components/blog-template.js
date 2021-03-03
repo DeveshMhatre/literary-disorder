@@ -18,7 +18,7 @@ const BlogTemplate = ({ data }) => {
         article
       />
       <article className="main article">
-        <h3 className="article__title">{frontmatter.title}</h3>
+        <h1 className="article__title">{frontmatter.title}</h1>
         <p className="post-meta">
           {frontmatter.date}
           <span className="post-meta__separator">&#9679;</span>{' '}
