@@ -6,6 +6,7 @@ readingTime: 2
 description: Do headstarts matter? Does focusing on one single skillset the way
   to go? I can not give you the answers to these questions. What I can do is
   tell you what worked for me and what did not.
+headerImage: banner-1.jpg
 ---
 
 My paternal grandfather, uncle, and father all had (had because my grandfather is no more) one thing in common: their artistry.
