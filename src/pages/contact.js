@@ -77,7 +77,6 @@ const About = () => {
               onChange={(e) =>
                 dispatch({ type: 'EMAIL', payload: e.target.value })
               }
-              required
             />
           </div>
 
