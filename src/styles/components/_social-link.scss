@@ -1,3 +1,9 @@
 .social-link {
   color: var(--sec-color);
+
+  &:hover {
+    svg {
+      fill: var(--sec-color);
+    }
+  }
 }
