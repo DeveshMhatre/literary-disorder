@@ -23,5 +23,6 @@ collections:
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
       - { label: 'Reading Time', name: 'readingTime', widget: 'number' }
+      - { lavel: 'Featured Image' name: 'featuredImage', widget: 'image' }
       - { label: 'Description', name: 'description', widget: 'string' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
