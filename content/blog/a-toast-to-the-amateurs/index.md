@@ -6,7 +6,7 @@ readingTime: 2
 description: Do headstarts matter? Does focusing on one single skillset the way
   to go? I can not give you the answers to these questions. What I can do is
   tell you what worked for me and what did not.
-headerImage: banner-1.jpg
+featuredImage: image.jpg
 ---
 
 My paternal grandfather, uncle, and father all had (had because my grandfather is no more) one thing in common: their artistry.
@@ -58,4 +58,3 @@ Because I think I get it. It is not about the result—that once-in-a-lifetime j
 If I get to cultivate my artistry as an amateur rather than as a professional—a so-called master—I would stay an amateur all my life. As my father, and his father before him, did.
 
 A toast to all the amateurs in my life, I guess.
-

@@ -3,15 +3,23 @@
 
   margin: clamp(4rem, 5vh, 6rem) auto;
 
-  &__title {
-    margin-bottom: 1rem;
+  &__head {
+    margin-bottom: 2rem;
 
-    font-family: $heading-font;
-    font-size: clamp(2.4rem, 3vw, 4rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 
-    color: var(--sec-color);
+    &--title {
+      margin-bottom: 1rem;
 
-    text-align: center;
+      font-family: $heading-font;
+      font-size: clamp(2.4rem, 3vw, 4rem);
+
+      color: var(--sec-color);
+    }
   }
 
   &__body {

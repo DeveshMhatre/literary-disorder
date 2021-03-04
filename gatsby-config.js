@@ -10,10 +10,13 @@ module.exports = {
   },
 
   plugins: [
-    'gatsby-plugin-sass',
-    'gatsby-plugin-netlify-cms',
-    'gatsby-plugin-react-helmet',
-    'gatsby-transformer-remark',
+    `gatsby-plugin-sass`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-react-helmet`,
+    `gatsby-transformer-remark`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
     {
       resolve: `gatsby-source-filesystem`,
       options: {
