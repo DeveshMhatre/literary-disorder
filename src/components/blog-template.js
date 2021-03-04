@@ -18,7 +18,7 @@ const BlogTemplate = ({ data }) => {
         title={frontmatter.title}
         description={frontmatter.description}
         pathname={frontmatter.slug}
-        image={`${frontmatter.featuredImage}`}
+        image={`${image.images.fallback.src}`}
         article
       />
       <article className="main article">
@@ -75,6 +75,9 @@ export const postQuery = graphql`
         featuredImage {
           childImageSharp {
             gatsbyImageData(width: 500, placeholder: BLURRED, formats: [JPG])
+            fluid {
+              src
+            }
           }
         }
       }
